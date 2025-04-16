@@ -53,7 +53,7 @@ uno.build.flags.ldspecs=
 #mega.build.extra_flags=
 
 # LDM-systems blue pill
-ldm.name=LDM-SYSTEMS LDM-BB 
+ldm.name=LDM BB-VK035
 ldm.upload.tool=k1921vkx_flasher
 ldm.upload.maximum_size=65536
 ldm.upload.maximum_data_size=16384
