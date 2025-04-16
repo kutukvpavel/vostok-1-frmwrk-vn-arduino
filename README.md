@@ -1,3 +1,30 @@
+This fork adds support for LDM-BB-K1946VK035 minimal evaluation board by LDM-Systems.
+
+Pinout:
+
+| |X3|PA|PB|X5| |
+|-|-|-|-|-|-|
+|D0|1|PA0||20|+5Vin|
+|D1|2|PA1||19|GND|
+|D2|3|PA2||18|+3.3Vout|
+|D3|4|PA3||17|NMI|
+|D4|5|PA4|PB15|16|D31|
+|D5|6|PA5|PB14|15|D30|
+|D6|7|PA6|PB13|14|D29|
+|D7|8|PA7|PB12|13|D28|
+|D8|9|PA8|PB11|12|D27|
+|D9|10|PA9|PB10|11|D26|
+|D10|11|PA10|PB9|10|D25|
+|D11|12|PA11|PB8|9|D24|
+|D12|13|PA12|PB7|8|D23|
+|D13|14|PA13|PB6|7|D22|
+|D14|15|PA14|PB5|6|D21|
+|D15|16|PA15|PB4|5|D20|
+|nRST|17| |PB3|4|D19 (A3)|
+|+3.3Vout|18| |PB2|3|D18 (A2)|
+|GND|19| |PB1|2|D17 (A1)|
+|+5Vin|20| |PB0|1|D16 (A0)|
+
 
 # Vostok k1921vk arduino
 [![PlatformIO Registry](https://badges.registry.platformio.org/packages/dcvostok/tool/vostok-1-frmwrk-vn-arduino.svg)](https://registry.platformio.org/tools/dcvostok/vostok-1-frmwrk-vn-arduino)
