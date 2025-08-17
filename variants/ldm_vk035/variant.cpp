@@ -41,8 +41,8 @@ const PinDescription pins_description_map[] =
         {GPIOB, GPIO_Pin_15, (PIN_ATTR_NONE), PIN_ADC_NONE, PIN_PWM_NONE}      //   31 / PB15
 };
 
-arduino::UartSerial Serial(UART1, PIN_UART_TX0, PIN_UART_RX0);
-arduino::UartSerial Serial1(UART0, PIN_UART_TX1, PIN_UART_RX1);
+arduino::UartSerial Serial(UART1, PIN_UART_TX1, PIN_UART_RX1);
+arduino::UartSerial Serial1(UART0, PIN_UART_TX0, PIN_UART_RX0);
 extern "C"
 {
   void UART0_RX_IRQHandler()
